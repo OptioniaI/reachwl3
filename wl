@@ -116,7 +116,7 @@ game:GetService("RunService").Stepped:Connect(function()
 								for i = 1,settings.repeatamount do 
 									firetouchinterest(Char:FindFirstChildOfClass("Tool").Handle, x, 0)
 									firetouchinterest(Char:FindFirstChildOfClass("Tool").Handle, x, 1)
-				                    firetouchinterest(Char:FindFirstChildOfClass("Tool").Handle, x, 0)
+				                    			firetouchinterest(Char:FindFirstChildOfClass("Tool").Handle, x, 0)
 									firetouchinterest(Char:FindFirstChildOfClass("Tool").Handle, x, 1)
 								end
 							end
